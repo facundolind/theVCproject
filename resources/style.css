@@ -1,9 +1,16 @@
 header {
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
 }
 
 nav {
+    display: flex;
+    justify-content:space-evenly;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-bottom: 50px;
 }
 
 a {
@@ -11,9 +18,11 @@ a {
 }
 
 .message {
-    text-align: center;
+    display: flex;
     width: 100%;
+    align-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .background {
@@ -28,9 +37,37 @@ a {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 100%;
+    font-size: larger;
 }
 
+#porfolio {
+    float: right;
+ 
+}
 
+.portfolio-message {
+    text-align: center;
+    font-size: larger;
+}
+
+.portfolio-img {
+    display: flex;
+    align-content: space-between;
+    flex-flow: wrap;
+    align-items: center;
+    
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin-top: 50px;
+    margin-left: 25px;
+}
 
 .img {
     width: 200px;
