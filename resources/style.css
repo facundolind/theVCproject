@@ -69,13 +69,20 @@ a {
     margin-left: 25px;
 }
 
+
+.team {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     text-align: center;
 }
 
-#team {
+.members {
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .img {
@@ -86,4 +93,8 @@ a {
 .photo {
     width: 250px;
     height: 400px;
+}
+
+footer {
+    text-align: center;
 }
