@@ -52,13 +52,13 @@ a {
 
 .portfolio-img {
     display: flex;
-    align-content: space-between;
+    justify-content: center;
     flex-flow: wrap;
-    align-items: center;
-    
+    align-items: cente;
+        
 }
 
-figcaption {
+.name {
     display: flex;
     justify-content: center;
     font-size: x-large;
@@ -67,6 +67,15 @@ figcaption {
     float: right;
     margin-top: 50px;
     margin-left: 25px;
+}
+
+.title {
+    text-align: center;
+}
+
+#team {
+    display: flex;
+    align-content: center;
 }
 
 .img {
